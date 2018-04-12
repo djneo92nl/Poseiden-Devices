@@ -9,12 +9,18 @@ namespace Poseiden\Devices\Devicetypes\Lights;
  */
 interface DimmableLight
 {
-
     public function turnOn() : self;
 
     public function turnOff() : self;
 
-    public function setBrightness() : self;
+    /**
+     * @param int $Brightness [min = 0, max = 256]
+     * @return DimmableLight
+     */
+    public function setBrightness(int $Brightness) : self;
 
-    public function getBrightness() : self;
+    /**
+     * @return int
+     */
+    public function getBrightness() : int;
 }

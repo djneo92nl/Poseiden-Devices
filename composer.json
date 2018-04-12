@@ -2,7 +2,8 @@
     "name": "djneo/poseiden-devices",
     "type": "library",
     "require": {
-        "sqmk/phue": "^1.7"
+        "sqmk/phue": "^1.7",
+        "djneo/colorz": "dev-master",
     },
     "authors": [
         {
