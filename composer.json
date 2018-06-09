@@ -3,14 +3,8 @@
     "type": "library",
     "require": {
         "sqmk/phue": "^1.7",
-        "djneo/colorz": "dev-master",
+        "djneo/colorz": "dev-master"
     },
-    "authors": [
-        {
-            "name": "remko janse",
-            "email": "remko.janse@in10.nl"
-        }
-    ],
     "autoload": {
         "psr-4": {
             "Poseiden\\Devices\\": "src"
